@@ -9,6 +9,12 @@ class StaticPagesController extends Controller
     //
     public function home()
     {
+        echo LARAVEL_START;
+        echo "**";
+        $now =  microtime(true);
+        echo $now;exit;
+
+        echo "ok1";exit;
         return view('static_pages/home');
     }
     public function help()
