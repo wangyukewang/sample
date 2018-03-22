@@ -8,8 +8,6 @@ function get_ext2($file_name){
     return substr($file_name, strrpos($file_name, '.'));
 }
 
-
-
 function get_ext3($file_name){
     return array_pop(explode('.', $file_name));
 }
